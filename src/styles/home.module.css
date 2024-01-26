@@ -1,8 +1,8 @@
-h1{
+.fontSize{
     font-size: 60px ;
     color: white ;
 }
-div{
+.blackDiv{
     background: #000;
     padding: 20px 30px ;
 }

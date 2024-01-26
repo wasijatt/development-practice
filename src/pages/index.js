@@ -2,6 +2,7 @@ import { useState ,useEffect } from 'react'
 import { Inter } from 'next/font/google'
 import LoginComponent from './LoginComponent'
 import form from './form'
+import homePage from './homePage'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -96,7 +97,7 @@ if (error){
 {cars.map((car) => <Car brand={car}/>)}
 </ul>
 
-
+<div> <homePage/></div>
 
 
 
